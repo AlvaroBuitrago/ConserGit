@@ -1,0 +1,12 @@
+---
+title: 'Introducción a \programa{Markdown}, \programa{Pandoc} y \programa{Git}'
+author: Luis Sanjuán
+date: 2015
+lang: spanish
+toc: true
+papersize: a4paper
+header-includes:
+- '\newcommand{\codigo}[1]{\texttt{#1}}'
+- '\newcommand{\programa}[1]{\textsf{#1}}'
+- '\newcommand{\fichero}[1]{\texttt{\textbf{#1}}}'
+...

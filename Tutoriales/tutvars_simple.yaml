@@ -1,0 +1,8 @@
+---
+lang: spanish
+papersize: a4paper
+header-includes:
+- '\newcommand{\codigo}[1]{\texttt{#1}}'
+- '\newcommand{\programa}[1]{\textsf{#1}}'
+- '\newcommand{\fichero}[1]{\texttt{\textbf{#1}}}'
+...
