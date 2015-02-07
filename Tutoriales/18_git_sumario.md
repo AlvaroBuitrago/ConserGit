@@ -1,4 +1,4 @@
-# Apéndice: Comandos esenciales de \programa{Git} u buenas prácticas
+# Apéndice: Comandos esenciales de \programa{Git} y buenas prácticas
 
 ## Sumario de comandos tratados
 A continuación refiero los comandos vistos ordenados por su función. Destaco
@@ -50,8 +50,8 @@ aquellos que me parecen imprescindibles.
 - `git --amend`: Muestra un editor para modificar la confirmación inmediatamente
   anterior. Normalmente, para modificar su mensaje descriptivo asociado.
 
-- `git commit -a -m "<mensaje>" <fichero>`: Añade `fichero` al área de preparación
-   y lo confirma, ambas operaciones en un único paso. 
+- `git commit -a -m "<mensaje>"`: Añade los cambios actuales al área de preparación
+   y los confirma, ambas operaciones en un único paso. 
 
 - `git rm --force <fichero>`: Elimina `fichero` de nuestro espacio de trabajo
   y del área de preparación.

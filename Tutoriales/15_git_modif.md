@@ -361,8 +361,7 @@ para próximas entregas.
   `fichero_nuevo`.
 - `git --amend`: Permite enmendar la confirmación inmediatamente anterior. Se
   usa normalmente para cambiar el mensaje de dicha confirmación.
-- `git commit -a -m "<mensaje>" <fichero>`: Añade al área 
-  de preparación los cambios en `fichero` y los confirma, en un solo
-  paso.
+- `git commit -a -m "<mensaje>"`: Añade los cambios actuales al área 
+  de preparación y los confirma, en un solo paso.
 - `git checkout -- <id_commit> <fichero>`: Revierte `fichero` a una versión
   anteriormente confirmada con el identificador `id_commit`.
